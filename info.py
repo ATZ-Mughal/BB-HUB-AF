@@ -57,7 +57,7 @@ SUPPORT_CHAT = environ.get(
 )  # Support group link ( make sure bot is admin )
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
-IS_VERIFY = is_enabled("IS_VERIFY", True)
+IS_VERIFY = is_enabled("IS_VERIFY", False)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "") #VERIFICATION TUTORIAL VIDEO URL, REPLACE ALL WITH YOURS
 VERIFY_IMG = environ.get(
